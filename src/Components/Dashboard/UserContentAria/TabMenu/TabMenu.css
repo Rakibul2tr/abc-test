@@ -1,0 +1,115 @@
+
+.tab_menu {
+    background: #fff;
+    margin: 20px 0 0 20px !important;
+    padding: 0 0 0 15px;
+}
+.menu_div{
+    margin-bottom: 10px;
+}
+.tab_menu li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 0px;
+    font-size: 20px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 1);
+    line-height: 37px;
+    margin-left: 35px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.activeborder{
+    border-bottom: 2px solid #2697FE;
+}
+.select_and_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid rgba(194, 187, 187, 1);
+    margin-bottom: 20px;
+}
+.select_btn {
+    margin-left: 20px;
+}
+.select_btn span i {
+    margin: 0 10px;
+    font-size: 20px;
+}
+.select_btn select {
+    width: 122px;
+    height: 35px;
+    background: rgba(247, 247, 247, 1);
+    border-radius: 6px;
+}
+.Schedule_btn button {
+    width: 222px;
+    height: 45px;
+    border: 1px solid rgba(38, 151, 254, 1);
+    border-radius: 6px;
+    background: #ffff;
+    color: rgba(38, 151, 254, 1);
+}
+
+/* =============test tabe content css================ */
+.test_content {
+    padding: 10px 20px;
+    background: #FEFEFE;
+    border: 1px solid rgba(210, 210, 210, 1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.test_content h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+.test_content p {
+    margin-bottom: 8px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #000;
+}
+.test_content p:nth-child(3) {
+    color: #9C9C9C;
+    font-size: 15px;
+}
+.test_content span{
+    color: #000;
+    font-weight: 500;
+}
+
+/* ============lecture tab css ================*/
+.leactur_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEBEB;
+    padding: 5px 0 5px 20px;
+}
+.typograpy span, .date span ,.time span{
+    font-size: 17px;
+    color: #9C9C9C;
+    line-height: 35px;
+    font-weight: 400;
+}
+.typograpy h4 {
+    font-size: 25px;
+    color: #2697FE;
+    font-weight: 500;
+    line-height: 38px;
+}
+.date h6, .time h6 {
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.record_btn button {
+    border: none;
+    font-weight: 500;
+    background: none;
+    color: #2697FE;
+    font-size: 18px;
+}
